@@ -1,0 +1,53 @@
+/* LIGHT */
+body[data-theme="light"] {
+  background: #f8fafc;
+  color: black;
+}
+
+/* DARK */
+body[data-theme="dark"] {
+  background: #0f172a;
+  color: white;
+}
+
+/* CARD */
+body[data-theme="dark"] .card {
+  background: #1e293b;
+  color: white;
+}
+
+/* TABLE */
+body[data-theme="dark"] .table {
+  color: white;
+}
+
+/* INPUT */
+body[data-theme="dark"] .form-control,
+body[data-theme="dark"] .form-select {
+  background: #1e293b;
+  color: white;
+  border: 1px solid #475569;
+}
+
+/* MODAL */
+body[data-theme="dark"] .modal-content {
+  background: #1e293b;
+  color: white;
+}
+
+
+/* DARK MODE CARD FIX */
+body[data-theme="dark"] .card {
+  background: #1e293b !important;
+  color: #ffffff !important;
+}
+
+/* Card text elements */
+body[data-theme="dark"] .card h1,
+body[data-theme="dark"] .card h2,
+body[data-theme="dark"] .card h3,
+body[data-theme="dark"] .card h4,
+body[data-theme="dark"] .card h5,
+body[data-theme="dark"] .card p {
+  color: #ffffff !important;
+}
